@@ -4,7 +4,7 @@ const fetch= require('node-fetch');
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
-client.login('OTEwOTI2NTU3MzI4MDcyNzY0.YZZ8dw.f-LBwfmK341wbhCQkhpE3QGYukE');
+client.login('YOUR BOT TOKEN');
 
 client.on('ready', readydiscord);
 
@@ -17,7 +17,7 @@ client.on('message', gotMessage);
 async function gotMessage(msg){
     console.log(msg.content);
     if(msg.content==='who is cringe'){
-        msg.reply('PARHS');
+        msg.reply('REPLY');
     }
     else if (msg.content=='!cringe'){
 
